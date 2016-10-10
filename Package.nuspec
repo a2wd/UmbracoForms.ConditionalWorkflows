@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>a2wd.UmbracoForms.ConditionalWorkflows</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>a2wd</authors>
     <owners>a2wd</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
