@@ -1,0 +1,5 @@
+﻿{
+  javascript: [
+    "~/App_Plugins/ConditionalFormsWorkflow/settingtypes/fieldconditions.controller.js"
+  ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2016/06/nuspec.xsd">
+  <metadata>
+    <id>a2wd.UmbracoForms.ConditionalWorkflows</id>
+    <version>1.0.0</version>
+    <authors>a2wd</authors>
+    <owners>a2wd</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/a2wd/UmbracoForms.ConditionalWorkflows</projectUrl>
+    <iconUrl>http://umbraco.com/media/357769/100px_transparent.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An extension to Umbraco Forms to allow for emails to be sent conditional upon values set in a form.</description>
+    <releaseNotes>Initial working build</releaseNotes>
+    <copyright>Copyright 2016 a2wd/3chillies</copyright>
+    <tags>umbraco forms workflow</tags>
+    <dependencies>
+      <dependency id="UmbracoForms" version="4.3.2" />
+    </dependencies>
+  </metadata>
+</package>

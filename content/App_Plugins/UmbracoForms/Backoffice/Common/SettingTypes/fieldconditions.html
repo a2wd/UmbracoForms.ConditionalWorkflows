@@ -1,0 +1,54 @@
+﻿<div ng-controller="Chillies.SettingType.FieldConditionsController">
+
+    <div class="umb-forms-mappings" ng-if="mappings.length > 0">
+
+        <div class="umb-forms-mapping-header">
+            <div class="umb-forms-mapping-field -no-margin-left">Field</div>
+            <div class="umb-forms-mapping-field">Field value</div>
+            <div class="umb-forms-mapping-field">Email route</div>
+            <div class="umb-forms-mapping-remove -no-margin-right"></div>
+        </div>
+
+        <div class="umb-forms-mapping" ng-repeat="mapping in mappings">
+
+            <div class="umb-forms-mapping-field">
+                <select class="-full-width"
+                        ng-options="field.id as field.value for field in fields"
+                        ng-model="mapping.field"
+                        ng-change="stringifyValue()">
+                    <option value="">Map a field</option>
+                </select>
+            </div>
+
+         <div class="umb-forms-mapping-field -no-margin-left">
+                <input class="-full-width-input"
+                       type="text"
+                       placeholder="Field value"
+                       ng-model="mapping.fieldValue"
+                       on-blur="stringifyValue()" />
+            </div>
+
+            <div class="umb-forms-mapping-field">
+                <input class="-full-width-input"
+                       type="text"
+                       placeholder="Email Route"
+                       ng-model="mapping.emailRoute"
+                       on-blur="stringifyValue()" />
+            </div>
+
+            <div class="umb-forms-mapping-remove -no-margin-right">
+                <a href="" ng-click="deleteRoute($index)">
+                    <i class="icon-trash"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <umb-button type="button"
+                action="addRoute()"
+                label="Add a route">
+    </umb-button>
+
+</div>
