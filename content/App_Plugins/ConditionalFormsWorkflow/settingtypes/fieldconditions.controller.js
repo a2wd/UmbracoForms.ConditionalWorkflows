@@ -22,7 +22,6 @@
 	    }
 
 	    $scope.addRoute = function () {
-            console.dir($scope.setting)
 	        $scope.mappings.push({
 	            field: "",
 	            fieldValue: "",
