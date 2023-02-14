@@ -1,3 +1,9 @@
+> **Warning**
+> 
+> As of Umbraco v8.13.0, conditional workflows are now supported natively within Umbraco.
+> As such this package is no longer necessary.
+> For more info, see [Umbraco.Forms.Issues, issue #370](https://github.com/umbraco/Umbraco.Forms.Issues/issues/370).
+
 # UmbracoForms, Conditional Workflows extension
 
 An extension to Umbraco Forms to allow for emails to be sent conditional upon values set in a form.
